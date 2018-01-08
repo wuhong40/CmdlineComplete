@@ -40,6 +40,7 @@ endif
 cnoremap <silent> <Plug>CmdlineCompleteBackward <c-r>=<sid>CmdlineComplete(1)<cr>
 cnoremap <silent> <Plug>CmdlineCompleteForward  <c-r>=<sid>CmdlineComplete(0)<cr>
 
+let &cpo = s:save_cpo
 " Functions
 
 " define variables if they don't exist
